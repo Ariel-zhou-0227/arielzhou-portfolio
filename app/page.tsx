@@ -1,14 +1,10 @@
-export default function Home() {
+export default function Page() {
   return (
-    <main className="p-8">
-      <h1 className="text-4xl font-bold mb-4">Ariel Zhou</h1>
-      <p className="mb-6">Fashion Marketing Portfolio</p>
-      <a
-        href="mailto:123020352@link.cuhk.edu.com"
-        className="bg-black text-white px-4 py-2 rounded"
-      >
-        Email Me
-      </a>
+    <main style={{ padding: 24, fontFamily: "system-ui" }}>
+      <h1 style={{ fontSize: 32, fontWeight: 700, marginBottom: 8 }}>
+        Ariel Zhou
+      </h1>
+      <p>Fashion Marketing Portfolio</p>
     </main>
   );
 }
