@@ -1,8 +1,7 @@
 import "./globals.css";
-import type { Metadata } from "next";
 
-export const metadata: Metadata = {
-  title: "Ariel Zhou - Portfolio",
+export const metadata = {
+  title: "Ariel Zhou — Portfolio",
   description: "Fashion Marketing Portfolio",
 };
 
@@ -17,4 +16,5 @@ export default function RootLayout({
     </html>
   );
 }
+
 
